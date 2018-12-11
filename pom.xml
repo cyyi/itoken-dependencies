@@ -29,7 +29,7 @@
         <spring-boot-admin.version>2.0.1</spring-boot-admin.version>
         <zipkin.version>2.10.1</zipkin.version>
         <pagehelper.version>1.2.9</pagehelper.version>
-        <druid.version>1.1.5</druid.version>
+        <druid.version>1.1.10</druid.version>
         <tkmybatis.version>1.1.5</tkmybatis.version>
     </properties>
 
