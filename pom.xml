@@ -34,6 +34,7 @@
 
         <lombok.version>1.16.18</lombok.version>
         <guava.version>27.0.1-jre</guava.version>
+        <nekohtml.version>1.9.22</nekohtml.version>
     </properties>
 
     <dependencyManagement>
@@ -113,6 +114,13 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+
+            <!-- 解决 thymeleaf 模板引擎一定要执行严格的 html5 格式校验问题 -->
+            <dependency>
+                <groupId>net.sourceforge.nekohtml</groupId>
+                <artifactId>nekohtml</artifactId>
+                <version>${nekohtml.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
